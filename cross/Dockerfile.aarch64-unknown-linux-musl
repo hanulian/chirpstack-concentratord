@@ -28,7 +28,7 @@ RUN echo "Building sx1301 HAL" && \
 
 RUN echo "Building sx1302 HAL" && \
     cd /hal && \
-    git clone https://github.com/brocaar/sx1302_hal.git -b $SX1302_VERSION && \
+    git clone https://github.com/hanulian/sx1302_hal.git && \
     cd /hal/sx1302_hal && \
     ARCH=$ARCH CROSS_COMPILE=$MUSL_PREFIX- make libloragw && \
     ln -s /hal/sx1302_hal/libloragw/inc /usr/local/$MUSL_PREFIX/include/libloragw-sx1302 && \
