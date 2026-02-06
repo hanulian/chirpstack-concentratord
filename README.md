@@ -57,8 +57,9 @@ make test
 
 Before compiling the binaries, you need to install some additional development tools (for cross-compiling, packaging, e.d.). Execute the following command:
 
+```bash
 make dev-dependencies
-
+```
 
 Execute the following commands to build the ChirpStack Concentratord binaries
 and packages:
