@@ -1063,7 +1063,7 @@ pub fn get_temperature() -> Result<f32> {
     //Ok(temp)
 
     // Dustin;
-    let mut temp: f32 = 23.0;
+    let temp: f32 = 23.0;
     Ok(temp)
 }
 
